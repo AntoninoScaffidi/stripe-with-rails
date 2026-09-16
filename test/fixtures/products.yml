@@ -1,0 +1,9 @@
+cooking_class:
+  name: Sicilian cooking class
+  price: 35.00
+  purchasable: true
+
+not_yet_on_sale:
+  name: Boat tour
+  price: 60.00
+  purchasable: false

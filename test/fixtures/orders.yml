@@ -1,0 +1,11 @@
+pending_order:
+  order_number: TESTORDER001
+  product: cooking_class
+  status: 0
+  unit_price: 35.00
+  total_amount: 35.00
+  quantity: 1
+  currency: eur
+  guest_first_name: Mario
+  guest_last_name: Rossi
+  guest_email: mario@example.com

@@ -1,0 +1,11 @@
+<div class="rounded-lg border border-slate-200 bg-white p-6">
+  <h1 class="text-2xl font-bold text-slate-900"><%= @product.name %></h1>
+  <p class="mt-1 text-lg text-slate-700">&euro;<%= "%.2f" % @product.price %></p>
+
+  <% if @product.purchasable? %>
+    <%= link_to "Buy now", new_order_path(product_id: @product.id),
+          class: "mt-6 inline-block rounded-lg bg-slate-900 px-5 py-2.5 text-white font-semibold hover:bg-slate-700" %>
+  <% else %>
+    <p class="mt-6 text-slate-500">This product isn't purchasable yet.</p>
+  <% end %>
+</div>
