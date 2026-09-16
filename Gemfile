@@ -11,7 +11,7 @@ gem "propshaft"
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
 # Official Stripe Ruby SDK
-gem "stripe", "~> 13.0"
+gem "stripe", "~> 19.6"
 # Pinned below 6.0: minitest 6.0 dropped Minitest::Mock from the core gem,
 # which this app's tests rely on to stub the Stripe API — see episode 1.
 gem "minitest", "~> 5.25"
