@@ -36,3 +36,4 @@ bin/rails test
 ## Episodes
 
 1. Setting up and initiating a payment (Stripe Checkout)
+2. Handling the outcome (webhook signature verification)
