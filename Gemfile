@@ -14,7 +14,7 @@ gem "pg", "~> 1.1"
 gem "stripe", "~> 13.0"
 # Pinned below 6.0: minitest 6.0 dropped Minitest::Mock from the core gem,
 # which this app's tests rely on to stub the Stripe API — see episode 1.
-gem "minitest", "~> 5.25"
+gem "minitest", "~> 6.0"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
