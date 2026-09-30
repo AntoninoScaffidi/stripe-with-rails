@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 8.1.3", ">= 8.1.3.1"
+gem "rails", "~> 8.1.4"
 # Pinned below 3.0: json 3.0.2 breaks ActiveSupport::JSON.decode's call into
 # JSON.parse (wrong number of arguments) on this Rails version — surfaces
 # immediately, via csp_meta_tag in the layout. See episode 1.
