@@ -9,7 +9,7 @@ gem "json", "< 3.0"
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
 gem "propshaft"
 # Use postgresql as the database for Active Record
-gem "pg", "~> 1.1"
+gem "pg", "~> 1.7"
 # Official Stripe Ruby SDK
 gem "stripe", "~> 13.0"
 # Pinned below 6.0: minitest 6.0 dropped Minitest::Mock from the core gem,
